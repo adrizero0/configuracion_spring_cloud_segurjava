@@ -7,7 +7,3 @@ zuul:
       servicio-reservas: # Service to create as sample
         path: /reservas/** #path that will be intercepted
         serviceId: servicio-reservas
-eureka:                  
-  client:
-    serviceUrl:
-      defaultZone: http://10.2.4.12:8761/eureka  # CLASE ADRI
